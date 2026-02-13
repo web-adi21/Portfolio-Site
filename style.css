@@ -1,0 +1,128 @@
+body {
+  background-color: pink;
+}
+#heading-Div {
+  text-align: center;
+  font-family: "Playwrite NZ Basic";
+  font-size: x-large;
+}
+#img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 150px;
+}
+#Heading2-Div {
+  text-align: center;
+  font-family: "Playwrite NZ Basic";
+  font-size: larger;
+  margin: 50px;
+}
+#input-Div {
+  text-align: center;
+}
+input {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Playwrite NZ Basic";
+  font-size: xx-large;
+  background-color: rgb(202, 77, 98);
+  color: rgb(123, 255, 0);
+  transition: 1s;
+}
+input::placeholder {
+  color: #fffcfc; 
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline wavy;
+}
+#startbtn-div {
+  text-align: center;
+  margin-top: 50px;
+}
+.start-btn {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Playwrite NZ Basic";
+  color: #fffcfc;
+}
+.h1 {
+  text-align: center;
+  font-family: "Playwrite NZ Basic";
+  margin-top: 300px;
+}
+.btn-div {
+  display: inline-block;
+  margin-left: 500px
+}
+.yesBtn {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(246, 83, 110);
+  border: solid;
+  border-color: #fffcfc;
+  border-radius: 200px;
+  color: rgb(255, 255, 255);
+  font-family: "Playwrite NZ Basic";
+  font-size: larger;
+  cursor: pointer;
+}
+.noBtn {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(246, 83, 110);
+  border: solid;
+  border-color: #fffcfc;
+  border-radius: 200px;
+  color: rgb(255, 255, 255);
+  font-family: "Playwrite NZ Basic";
+  font-size: larger;
+  cursor: pointer;
+}
+.img2Div {
+  text-align: center;
+  height: 200px;
+}
+.img2 {
+  border-radius: 100px;
+}
+#yesBtnImg {
+  height: 80px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+#noBtnImg {
+  height: 80px;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.nameCheck {
+  text-align: center;
+  font-family: "Playwrite NZ Basic";
+  font-size: larger;
+}
+.finaltextdiv {
+  text-align: center;
+  font-family: "Playwrite NZ Basic";
+  font-size: larger;
+}
+.img3div {
+  text-align: center;
+  
+}
