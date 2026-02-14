@@ -174,3 +174,32 @@ section {
         display: none; /* Add a hamburger menu for better mobile UX */
     }
 }
+
+.dark-theme {
+    --bg-light: #121212;
+    --text-dark: #e0e0e0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark-theme header, 
+.dark-theme .skill-card, 
+.dark-theme .project-card {
+    background-color: #252525;
+    border-color: #444;
+    color: #fff;
+}
+
+.dark-theme .nav-links a {
+    color: #fff;
+}
+
+
+.logo img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.logo img:active {
+    transform: scale(0.9);
+}
