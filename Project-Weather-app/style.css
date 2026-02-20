@@ -4,7 +4,7 @@ body {
 
 #containerdiv {
   display: flex;
-  margin: 3%;
+  padding: 3%;
   height: 100vh;
   gap: 3%;
 }
