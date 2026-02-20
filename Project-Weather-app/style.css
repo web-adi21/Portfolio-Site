@@ -6,14 +6,16 @@ body {
   display: flex;
   margin: 3%;
   height: 100vh;
+  gap: 3%;
 }
 
 #citydiv {
   width: 25%;
   background-color: hsl(34, 78%, 91% ,0.2);
   border-radius: 40px;
-  border: 2px solid rgb(255, 255, 255, 0.5);
+  border: 1.5px solid rgb(255, 255, 255, 0.3);
   height: 95%;
+  box-shadow: 2px 2px 5px grey;
 }
 #cityinput {
   margin-top: 20%;
@@ -36,12 +38,62 @@ body {
 }
 
 
+
+
 #tempdiv {
   width: 50%;
   background-color: aquamarine;
+  background-image: url("assets/temp\ div\ background.png");
+  background-size: cover;
+  border-radius: 25px;
+  color: white;
+  border: 2px solid rgb(255, 255, 255,0.5);
+  box-shadow: 2px 2px 5px grey;
+   height: 85%;
+   margin-top: 6%;
+   display: flex;
+   flex-direction: column;
+   gap: 5%;
 }
+#citynamediv {
+  height: 32%;
+  padding-top: 10%;
+  padding-left: 7%;
+  font-size: xxx-large;
+
+}
+
+#tempinfodiv {
+  height: 32%;
+   padding-top: 8%;
+  padding-left: 7%;
+  font-size: xxx-large;
+  margin-bottom: 2%;
+}
+
+#daysdiv {
+  display: flex;
+  height: 27%;
+   background-color: hsl(34, 78%, 91% ,0.2);
+  border-radius: 40px;
+  margin-bottom: 7%;
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+.day {
+  flex: 1;
+  margin: 2%;
+  text-align: center;
+}
+
+
+
+
+
 
 #infocontainerdiv {
   width: 25%;
   background-color: bisque;
+ 
 }
