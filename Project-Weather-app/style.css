@@ -66,12 +66,18 @@ body {
 
 }
 
+#weathericon {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 10px auto;
+}
+
 #tempinfodiv {
   height: 32%;
-   padding-top: 8%;
   padding-left: 7%;
   font-size: xxx-large;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 #daysdiv {
