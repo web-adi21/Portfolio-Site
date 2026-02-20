@@ -13,6 +13,21 @@ async function updateWeather(city) {
         const res = await fetch(currentUrl);
         const currentData = await res.json();
 
+        const lat = currentData.coord.lat;
+        const lon = currentData.coord.lon;
+
+
+        const aqiUrl = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+
+        const resAqi = await fetch(aqiUrl);
+        const aqiData = await resAqi.json();
+
+
+        const aqiLevel = aqiData.list[0].main.aqi;
+
+
+        const aqiText = ["Good", "Fair", "Moderate", "Poor", "Very Poor"];
+        document.getElementById("aqidiv").innerText = aqiText[aqiLevel - 1];
       
         const resForecast = await fetch(forecastUrl);
         const forecastData = await resForecast.json();
