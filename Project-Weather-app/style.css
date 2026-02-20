@@ -1,5 +1,6 @@
 body {
   background-image: url("assets/web\ background.png");
+  transition: 0.5s;
 }
 
 #containerdiv {
