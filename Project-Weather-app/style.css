@@ -1,0 +1,19 @@
+#containerdiv {
+  display: flex;
+
+}
+
+#citydiv {
+  width: 25%;
+  background-color: aqua;
+}
+
+#tempdiv {
+  width: 50%;
+  background-color: aquamarine;
+}
+
+#infocontainerdiv {
+  width: 25%;
+  background-color: bisque;
+}
