@@ -66,6 +66,7 @@ async function updateWeather(city) {
 
         mainIconTag.src = `https://openweathermap.org/img/wn/${mainIconCode}@4x.png`;
         mainIconTag.style.display = "block";
+        return currentData;
     } catch (err) {
         alert("Enter a valid city name!");
     }
@@ -109,6 +110,9 @@ async function addcity(event) {
       if (data) {
         cityarray.push(city);
         let cities = document.querySelector("#savedcitiesdiv");
+        if (cities.innerText.trim() === "--") {
+          cities.innerHTML = "";
+        }
         cities.innerHTML += `<div>${data.name}: ${Math.round(data.main.temp)}°C</div>`;
         document.querySelector("#cityinput").value = '';
       }
